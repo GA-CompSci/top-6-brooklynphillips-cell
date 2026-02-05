@@ -1,5 +1,16 @@
 /*******
 COLOR CHEAT SHEET
+https://coolors.co/444b2f-88906f-ccd5ae-e9edc9-e5e59e-fefae0-faedcd-d4a373-ac6e35
+
+444b2f - dark green
+88906f - palm leaf
+ccd5ae - tea green
+e9edc9 - light green
+e5e59e - limish green
+fefae0 - cream
+faedcd - light beige
+d4a373 - bronze
+ac6e35 - dark brown
 
 
 
@@ -11,3 +22,11 @@ COLOR CHEAT SHEET
 /************************/
 /******** FONTS *********/
 /************************/
+body, p, div {
+    font-family: "Open Sans", sans-serif; 
+}
+h1, h2, h3, h4, h5, h6 { 
+    font-family: "Big Shoulders Inline", sans-serif;
+}
+
+}
