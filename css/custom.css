@@ -11,14 +11,9 @@ fefae0 - cream
 faedcd - light beige
 d4a373 - bronze
 ac6e35 - dark brown
-
-
-
-
+1c220a - darkest green
+851600 - red
 *****/
-
-
-
 /************************/
 /******** FONTS *********/
 /************************/
@@ -29,4 +24,30 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Big Shoulders Inline", sans-serif;
 }
 
+/************************/
+/******** HERO *********/
+/************************/
+
+header.masthead {
+   background: url("https://seventeas.com/cdn/shop/articles/ST_blog_sweet_tea_24_LP.jpg?v=1724777894");
+   background-size: cover;
+
 }
+
+.masthead h1 {
+    color: ac6e35;
+    text-shadow: 2px 2px 5px #ac6e35;
+    font-size: 72px !important
+
+}
+
+.masthead p {
+color: #000000 ;
+font-family: "Bungee", sans-serif !important;
+text-shadow: 1px 1px 2px white ;
+ font-weight: 900;
+font-size: 22px !important;
+font-style: normal;
+
+}
+
