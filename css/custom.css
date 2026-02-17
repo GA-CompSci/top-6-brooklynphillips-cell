@@ -17,10 +17,18 @@ ac6e35 - dark brown
 /************************/
 /******** FONTS *********/
 /************************/
-body, p, div {
-    font-family: "Open Sans", sans-serif; 
+body,
+p,
+div {
+    font-family: "Open Sans", sans-serif;
 }
-h1, h2, h3, h4, h5, h6 { 
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Big Shoulders Inline", sans-serif;
 }
 
@@ -29,8 +37,8 @@ h1, h2, h3, h4, h5, h6 {
 /************************/
 
 header.masthead {
-   background: url("https://seventeas.com/cdn/shop/articles/ST_blog_sweet_tea_24_LP.jpg?v=1724777894");
-   background-size: cover;
+    background: url("https://seventeas.com/cdn/shop/articles/ST_blog_sweet_tea_24_LP.jpg?v=1724777894");
+    background-size: cover;
 
 }
 
@@ -38,16 +46,67 @@ header.masthead {
     color: ac6e35;
     text-shadow: 2px 2px 5px #ac6e35;
     font-size: 72px !important
-
 }
 
 .masthead p {
-color: #000000 ;
-font-family: "Bungee", sans-serif !important;
-text-shadow: 1px 1px 2px white ;
- font-weight: 900;
-font-size: 22px !important;
-font-style: normal;
+    color: #000000;
+    font-family: "Bungee", sans-serif !important;
+    text-shadow: 1px 1px 2px white;
+    font-weight: 900;
+    font-size: 22px !important;
+    font-style: normal;
 
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption,
+#portfolio .container-sm .portfolio-box .portfolio-box-caption,
+#portfolio .container-md .portfolio-box .portfolio-box-caption,
+#portfolio .container-lg .portfolio-box .portfolio-box-caption,
+#portfolio .container-xl .portfolio-box .portfolio-box-caption,
+#portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+    background: #ccd5aea8;
+}
+
+/************************/
+/******** COLORS *********/
+/************************/
+
+/************************/
+.text-primary {
+    
+    color: #ac6e35 !important;
+}
+.bg-primary {
+   
+    background-color: #88906f !important;
+}
+
+.bg-dark {
+  
+    background-color: #88906f !important;
+}
+
+.btn-primary {
+    --bs-btn-color: #fefae0;
+    --bs-btn-bg: #851600;
+    --bs-btn-border-color: #851600;
+    --bs-btn-hover-color: #88906f;
+    --bs-btn-hover-bg: #88906f;
+    --bs-btn-hover-border-color: #851600;
+    --bs-btn-active-color: #fefae0;
+    --bs-btn-active-bg: #851600;
+    --bs-btn-active-border-color: #b74a2c;
+    --bs-btn-active-shadow: inset #851600;
+    --bs-btn-disabled-color: #fefae0;
+    --bs-btn-disabled-bg: #851600;
+    --bs-btn-disabled-border-color: #851600;
+}
+
+hr.divider {
+   background-color: #1c220a;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: #444b2f;
 }
 
