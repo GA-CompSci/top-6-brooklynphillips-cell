@@ -13,6 +13,7 @@ d4a373 - bronze
 ac6e35 - dark brown
 1c220a - darkest green
 851600 - red
+fff - white
 *****/
 /************************/
 /******** FONTS *********/
@@ -107,6 +108,7 @@ hr.divider {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-    color: #444b2f;
+    color: #444b2f !important;
 }
+
 
